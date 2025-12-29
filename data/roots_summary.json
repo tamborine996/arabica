@@ -1,0 +1,407 @@
+{
+  "total_roots": 1651,
+  "total_derivatives": 4635,
+  "total_occurrences": 50269,
+  "top_100_roots": [
+    {
+      "root": "أله",
+      "frequency": 2851
+    },
+    {
+      "root": "قول",
+      "frequency": 1722
+    },
+    {
+      "root": "كون",
+      "frequency": 1390
+    },
+    {
+      "root": "ربب",
+      "frequency": 980
+    },
+    {
+      "root": "أمن",
+      "frequency": 879
+    },
+    {
+      "root": "علم",
+      "frequency": 854
+    },
+    {
+      "root": "قوم",
+      "frequency": 660
+    },
+    {
+      "root": "أيي",
+      "frequency": 597
+    },
+    {
+      "root": "أتي",
+      "frequency": 549
+    },
+    {
+      "root": "كفر",
+      "frequency": 525
+    },
+    {
+      "root": "بين",
+      "frequency": 523
+    },
+    {
+      "root": "شيأ",
+      "frequency": 519
+    },
+    {
+      "root": "رسل",
+      "frequency": 513
+    },
+    {
+      "root": "يوم",
+      "frequency": 475
+    },
+    {
+      "root": "أرض",
+      "frequency": 461
+    },
+    {
+      "root": "سمو",
+      "frequency": 381
+    },
+    {
+      "root": "كلل",
+      "frequency": 377
+    },
+    {
+      "root": "عذب",
+      "frequency": 373
+    },
+    {
+      "root": "عمل",
+      "frequency": 360
+    },
+    {
+      "root": "جعل",
+      "frequency": 346
+    },
+    {
+      "root": "رحم",
+      "frequency": 339
+    },
+    {
+      "root": "أنس",
+      "frequency": 338
+    },
+    {
+      "root": "رأي",
+      "frequency": 328
+    },
+    {
+      "root": "كتب",
+      "frequency": 319
+    },
+    {
+      "root": "هدي",
+      "frequency": 316
+    },
+    {
+      "root": "ظلم",
+      "frequency": 315
+    },
+    {
+      "root": "نفس",
+      "frequency": 298
+    },
+    {
+      "root": "قبل",
+      "frequency": 294
+    },
+    {
+      "root": "نزل",
+      "frequency": 293
+    },
+    {
+      "root": "ذكر",
+      "frequency": 292
+    },
+    {
+      "root": "حقق",
+      "frequency": 287
+    },
+    {
+      "root": "كذب",
+      "frequency": 282
+    },
+    {
+      "root": "جيأ",
+      "frequency": 278
+    },
+    {
+      "root": "عبد",
+      "frequency": 275
+    },
+    {
+      "root": "أخذ",
+      "frequency": 273
+    },
+    {
+      "root": "خلق",
+      "frequency": 261
+    },
+    {
+      "root": "وقي",
+      "frequency": 258
+    },
+    {
+      "root": "أخر",
+      "frequency": 250
+    },
+    {
+      "root": "أمر",
+      "frequency": 248
+    },
+    {
+      "root": "بعد",
+      "frequency": 235
+    },
+    {
+      "root": "غفر",
+      "frequency": 234
+    },
+    {
+      "root": "ولي",
+      "frequency": 232
+    },
+    {
+      "root": "دعو",
+      "frequency": 212
+    },
+    {
+      "root": "حكم",
+      "frequency": 210
+    },
+    {
+      "root": "ملك",
+      "frequency": 206
+    },
+    {
+      "root": "جنن",
+      "frequency": 201
+    },
+    {
+      "root": "عند",
+      "frequency": 201
+    },
+    {
+      "root": "خير",
+      "frequency": 196
+    },
+    {
+      "root": "حسن",
+      "frequency": 194
+    },
+    {
+      "root": "نور",
+      "frequency": 194
+    },
+    {
+      "root": "ضلل",
+      "frequency": 191
+    },
+    {
+      "root": "حيي",
+      "frequency": 189
+    },
+    {
+      "root": "سمع",
+      "frequency": 185
+    },
+    {
+      "root": "بني",
+      "frequency": 184
+    },
+    {
+      "root": "خرج",
+      "frequency": 182
+    },
+    {
+      "root": "صلح",
+      "frequency": 180
+    },
+    {
+      "root": "سبل",
+      "frequency": 176
+    },
+    {
+      "root": "تبع",
+      "frequency": 172
+    },
+    {
+      "root": "قتل",
+      "frequency": 170
+    },
+    {
+      "root": "مثل",
+      "frequency": 169
+    },
+    {
+      "root": "شرك",
+      "frequency": 168
+    },
+    {
+      "root": "قلب",
+      "frequency": 168
+    },
+    {
+      "root": "سوأ",
+      "frequency": 167
+    },
+    {
+      "root": "كثر",
+      "frequency": 167
+    },
+    {
+      "root": "موت",
+      "frequency": 165
+    },
+    {
+      "root": "كبر",
+      "frequency": 161
+    },
+    {
+      "root": "شهد",
+      "frequency": 160
+    },
+    {
+      "root": "نبأ",
+      "frequency": 160
+    },
+    {
+      "root": "بعض",
+      "frequency": 158
+    },
+    {
+      "root": "نصر",
+      "frequency": 158
+    },
+    {
+      "root": "صدق",
+      "frequency": 155
+    },
+    {
+      "root": "غير",
+      "frequency": 154
+    },
+    {
+      "root": "وعد",
+      "frequency": 151
+    },
+    {
+      "root": "بصر",
+      "frequency": 148
+    },
+    {
+      "root": "رود",
+      "frequency": 148
+    },
+    {
+      "root": "لقي",
+      "frequency": 146
+    },
+    {
+      "root": "دون",
+      "frequency": 144
+    },
+    {
+      "root": "سلم",
+      "frequency": 140
+    },
+    {
+      "root": "نعم",
+      "frequency": 140
+    },
+    {
+      "root": "دنو",
+      "frequency": 133
+    },
+    {
+      "root": "قدر",
+      "frequency": 132
+    },
+    {
+      "root": "نذر",
+      "frequency": 130
+    },
+    {
+      "root": "جمع",
+      "frequency": 129
+    },
+    {
+      "root": "سأل",
+      "frequency": 129
+    },
+    {
+      "root": "طوع",
+      "frequency": 129
+    },
+    {
+      "root": "نظر",
+      "frequency": 129
+    },
+    {
+      "root": "عظم",
+      "frequency": 128
+    },
+    {
+      "root": "أهل",
+      "frequency": 127
+    },
+    {
+      "root": "خلف",
+      "frequency": 127
+    },
+    {
+      "root": "دخل",
+      "frequency": 126
+    },
+    {
+      "root": "أول",
+      "frequency": 125
+    },
+    {
+      "root": "خوف",
+      "frequency": 124
+    },
+    {
+      "root": "بشر",
+      "frequency": 123
+    },
+    {
+      "root": "رزق",
+      "frequency": 123
+    },
+    {
+      "root": "عزز",
+      "frequency": 120
+    },
+    {
+      "root": "يدي",
+      "frequency": 120
+    },
+    {
+      "root": "أمم",
+      "frequency": 119
+    },
+    {
+      "root": "جزي",
+      "frequency": 118
+    },
+    {
+      "root": "أبو",
+      "frequency": 117
+    },
+    {
+      "root": "نهر",
+      "frequency": 113
+    }
+  ]
+}

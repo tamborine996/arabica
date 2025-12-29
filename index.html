@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabica - Quranic Arabic Vocabulary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Quicksand:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Screen -->
+    <div id="homeScreen" class="screen">
+        <div class="container">
+            <h1>Arabica</h1>
+            <p class="subtitle">Learn Quranic Arabic by Root</p>
+
+            <div class="mode-toggle">
+                <button class="mode-btn active" data-mode="roots">By Root</button>
+                <button class="mode-btn" data-mode="words">By Word</button>
+            </div>
+
+            <div class="direction-toggle">
+                <span class="direction-label">Test direction:</span>
+                <button class="direction-btn active" data-dir="ar-en">عربي → English</button>
+                <button class="direction-btn" data-dir="en-ar">English → عربي</button>
+            </div>
+
+            <button class="tricky-review-btn hidden" id="globalTrickyBtn">
+                Review Tricky Items (<span id="trickyCount">0</span>)
+            </button>
+
+            <div id="packList" class="pack-list"></div>
+
+            <div class="stats-summary" id="statsSummary">
+                <div class="stat-item">
+                    <span class="stat-value" id="totalRoots">0</span>
+                    <span class="stat-label">Roots</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="totalLearned">0</span>
+                    <span class="stat-label">Learned</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="totalTricky">0</span>
+                    <span class="stat-label">Tricky</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Practice Screen -->
+    <div id="practiceScreen" class="screen hidden">
+        <div class="practice-header">
+            <button class="btn-back" id="backBtn">← Back</button>
+            <span class="word-counter" id="wordCounter">1 / 50</span>
+        </div>
+
+        <div class="practice-content">
+            <h2 class="pack-title" id="packTitle">Top 50 Roots</h2>
+
+            <div class="word-card" id="wordCard">
+                <div class="root-badge" id="rootBadge">ر ح م</div>
+
+                <div class="card-front" id="cardFront">
+                    <div class="arabic-main" id="arabicMain">رَحْمَة</div>
+                    <div class="pattern-info" id="patternInfo">
+                        <span class="pattern-label">Pattern:</span>
+                        <span class="pattern-value" id="patternValue">فَعْلَة</span>
+                    </div>
+                </div>
+
+                <div class="card-back hidden" id="cardBack">
+                    <div class="meaning-main" id="meaningMain">mercy, compassion</div>
+                    <div class="meaning-core" id="meaningCore">Core: mercy</div>
+                    <div class="derivatives-list" id="derivativesList"></div>
+                </div>
+
+                <div class="tap-hint" id="tapHint">Tap to reveal</div>
+            </div>
+
+            <div class="example-verse" id="exampleVerse">
+                <span class="verse-ref" id="verseRef"></span>
+            </div>
+        </div>
+
+        <div class="practice-footer">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <div class="rating-buttons">
+                <button class="btn-rating btn-tricky" id="trickyBtn">Tricky</button>
+                <button class="btn-rating btn-got-it" id="gotItBtn">Got it!</button>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="btn-nav" id="prevBtn">← Previous</button>
+                <button class="btn-nav" id="nextBtn">Next →</button>
+            </div>
+
+            <div class="keyboard-hints">
+                <span>Space: flip</span>
+                <span>←/1: tricky</span>
+                <span>→/2: got it</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Complete Screen -->
+    <div id="completeScreen" class="screen hidden">
+        <div class="container complete-content">
+            <h1>Session Complete!</h1>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="statTotal">0</div>
+                    <div class="stat-label">Total</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="statGotIt">0</div>
+                    <div class="stat-label">Got it!</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="statTricky">0</div>
+                    <div class="stat-label">Tricky</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="statPercent">0%</div>
+                    <div class="stat-label">Score</div>
+                </div>
+            </div>
+
+            <div class="complete-actions">
+                <button class="btn-primary" id="reviewTrickyBtn">Review Tricky Items</button>
+                <button class="btn-secondary" id="homeBtn">← Back to Home</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

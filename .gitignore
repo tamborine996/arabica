@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+
+# Source data (keep processed data only)
+data/quran-morphology.txt
