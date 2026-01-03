@@ -309,12 +309,33 @@ function renderDerivatives(derivatives) {
         return;
     }
 
-    elements.derivativesList.innerHTML = derivatives.slice(0, 5).map(d => `
-        <div class="derivative-item">
-            <span class="derivative-arabic">${d.lemma}</span>
-            <span class="derivative-freq">${d.frequency}x</span>
-        </div>
-    `).join('');
+    elements.derivativesList.innerHTML = derivatives.slice(0, 6).map(d => {
+        const formLabel = d.verb_form ? getVerbFormLabel(d.verb_form) : getPosLabel(d.pos);
+        const meaning = d.meaning || '';
+        return `
+            <div class="derivative-item">
+                <div class="derivative-main">
+                    <span class="derivative-arabic">${d.lemma}</span>
+                    <span class="derivative-form">${formLabel}</span>
+                </div>
+                <div class="derivative-details">
+                    ${meaning ? `<span class="derivative-meaning">${meaning}</span>` : ''}
+                    <span class="derivative-freq">${d.frequency}x</span>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+function getPosLabel(pos) {
+    const labels = {
+        'N': 'noun',
+        'V': 'verb',
+        'P': 'particle',
+        'ADJ': 'adj',
+        'PN': 'proper noun'
+    };
+    return labels[pos] || pos;
 }
 
 function flipCard() {
